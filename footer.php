@@ -93,10 +93,15 @@
 		</footer>
 	<!-- Footer Ends -->
 	<!-- Template JS Files -->
+	<!--
 	<script src="<?php echo get_theme_file_uri( 'assets/js/jquery-1.12.3.min.js' ); ?>"></script>
 	<script src="<?php echo get_theme_file_uri( 'assets/js/jquery-migrate-1.3.0.min.js' ); ?>"></script>
 	<script src="<?php echo get_theme_file_uri( 'assets/js/bootstrap.min.js' ); ?>"></script>
 	<script src="<?php echo get_theme_file_uri( 'assets/js/plugins/owl-carousel/owl.carousel.js' ); ?>"></script>
 	<script src="<?php echo get_theme_file_uri( 'assets/js/custom.js' ); ?>"></script>
+	-->
+	<!-- INICIO FOOTER -->
+	<?php wp_footer(); ?>
+	<!-- FIN FOOTER -->
 	</body>
 </html>
