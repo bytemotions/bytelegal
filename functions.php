@@ -43,9 +43,10 @@ if ( ! function_exists( 'bytelegal_setup' ) ) {
          * Add support for custom navigation menus.
          */
         register_nav_menus( array(
-            'header' => __('Header Holder', 'bytelegal' ),
-            'social' => __('Social Holder', 'bytelegal' ),
-            'footer' => __('Footer Holder', 'bytelegal' )		
+            'header-primary' => __('Header Primary', 'bytelegal' ),
+            'header-links'   => __('Header Links',   'bytelegal' ),
+            'header-social'  => __('Header Social',  'bytelegal' ),
+            'footer-social'  => __('Footer Social',  'bytelegal' )		
         ) );
 
         /**

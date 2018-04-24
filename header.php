@@ -10,9 +10,6 @@
 
 		<title>Law Attorney - Bootstrap 3 Template</title>
 
-		<!-- Bootstrap -->
-		<link href="<?php echo get_theme_file_uri( 'assets/css/bootstrap.min.css' ); ?>" rel="stylesheet">
-
 		<!-- Google Web Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
@@ -44,7 +41,7 @@
 				<!-- Logo Ends -->
 				<!-- Right Col Starts -->
 					<div class="col-md-9 col-sm-8 col-xs-12 hidden-xs">
-					<!-- Header Links Starts -->
+					<!-- Header Links Starts
 						<ul class="list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light">
 							<li><a href="#">Attorneys</a></li>
 							<li><a href="#">Recent Cases</a></li>
@@ -52,6 +49,11 @@
 							<li><a href="#">Pratice Areas</a></li>
 							<li><a href="#">Team Members</a></li>
 						</ul>
+					-->
+					<?php wp_nav_menu( array( 'theme_location'  => 'header-links',
+											  'menu_class'      => 'list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light',
+											  'container'       => '',
+											  'container_class' => 'col-md-9 col-sm-8 col-xs-12 hidden-xs') ); ?>
 					<!-- Header Links Ends -->
 					<!-- Starts -->
 						<ul class="list-unstyled list-inline header-info text-center-xs pull-right-lg pull-right-md pull-right-sm">
@@ -95,7 +97,7 @@
 			<!-- Nav Header Ends -->
 			<!-- Navbar Cat collapse Starts -->
 				<div class="collapse navbar-collapse navbar-cat-collapse animation">
-					<ul class="nav navbar-nav text-uppercase text-bold">
+					<!--<ul class="nav navbar-nav text-uppercase text-bold">
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="practice-area.html">Pratice Areas</a></li>
@@ -109,7 +111,13 @@
 						</li>
 						<li><a href="features.html">Features</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
+					</ul>-->
+					<!-- PRIMARY MENU STARTS -->
+					<?php wp_nav_menu( array( 'theme_location'  => 'header-primary',
+											  'menu_class'      => 'nav navbar-nav text-uppercase text-bold',
+											  'container'       => '') ); ?>
+
+					<!-- END PRIMARY MENU -->
 					<ul class="nav navbar-nav navbar-right text-right-lg text-right-md hidden-sm hidden-xs">
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
