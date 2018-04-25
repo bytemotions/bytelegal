@@ -59,11 +59,9 @@
                                     <i class="fa fa-comments"></i>
                                     <a href="#"><?php wp_count_comments( $post->ID ); ?> Comments</a>
                                 </li>
-                                <li>
+                                <li>                                    
                                     <i class="fa fa-tag"></i>
-                                    <a href="#">Company</a>, 
-                                    <a href="#">Finance</a>, 
-                                    <a href="#">Labour</a>
+                                    <?php echo get_the_tag_list(null,', ',null,  $post->ID); ?>
                                 </li>
                             </ul>
 				    	<!-- Blog Post Info Ends -->

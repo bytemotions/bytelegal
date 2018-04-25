@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<h1>front-page.php</h1>
 
 <?php
 if ( 'posts' == get_option( 'show_on_front' ) ) {
