@@ -94,28 +94,29 @@
 							<!-- Ends -->
 
 						</article><!-- .post -->
-					
+				
+						<!-- Author Bio Starts -->
+							<div class="blog-author-bio">
+								<h5>About the Author</h5>
+								<h6><?php echo get_the_author_meta('first_name').' '.get_the_author_meta('last_name'); ?></h6>
+								<div class="row">
+									<div class="col-xs-3 author-bio-img">
+										<?php echo get_avatar( get_the_author_meta('email') , 90 ); ?>
+									</div>
+									<div class="col-xs-9">								
+										<p class="text-justify">
+											<?php the_author_meta('description') ?>
+										</p>
+									</div>
+								</div>
+							</div>
+						<!-- Author Bio Ends -->						
+
 						<?php 
 					endwhile; 
 				endif; 
-				?>
+				?>				
 
-				<!-- Blog Single Post Ends -->
-				<!-- Author Bio Starts -->
-					<div class="blog-author-bio">
-						<h5>About the Author</h5>
-						<div class="row">
-							<div class="col-xs-3 author-bio-img">
-								<img src="images/blog/author-bio-img1.jpg" alt="Author Name" class="img-responsive">
-							</div>
-							<div class="col-xs-9">								
-								<p class="text-justify">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-								</p>
-							</div>
-						</div>
-					</div>
-				<!-- Author Bio Ends -->
 				<!-- Comments Display Starts -->
 					<h4 class="main-heading-4">3 Comments</h4>
 					<div class="comments-area">

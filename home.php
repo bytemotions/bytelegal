@@ -21,15 +21,13 @@
                     while (have_posts()) : 
                         the_post(); ?>
 
-
                         <!-- Blog Post #1 Starts -->
                         <article class="blog-post">
                         <!-- Blog Media Starts -->
                             <div class="blog-media">
                                 <?php                                 
                                 // check if the post or page has a Featured Image assigned to it.
-                                    if ( has_post_thumbnail() ) {
-                                        //the_post_thumbnail( 'thumbnail', array( 'class' => 'img-responsive' ) );
+                                    if ( has_post_thumbnail() ) {                                        
                                         the_post_thumbnail( 
                                             array( 870, 404 ), 
                                             array( 'class' => 'img-responsive' ) );
@@ -110,6 +108,5 @@
 		<!-- Nested Row Ends -->
 		</div>
 	<!-- Main Container Ends -->
-
 
     <?php get_footer(); ?>
