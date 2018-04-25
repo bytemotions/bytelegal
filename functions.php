@@ -63,11 +63,11 @@ function bytelegal_sidebars() {
     /* Register the 'primary' sidebar. */
     register_sidebar(
         array(
-            'id'            => 'sidebar-widgets',
-            'name'          => __( 'Sidebar Widegts Area' ),
-            'description'   => __( 'Sidebar bytemotion\'s area for pleacing great widgets.' ),
-            'before_widget' => '<section id="%1$s" class="widget %2$s">',
-            'after_widget'  => '</section>'            
+            'id'            => 'sidebar-blog',
+            'name'          => __( 'Right Blog Sidebar Widegts Area' ),
+            'description'   => __( 'Blog-Sidebar bytemotion\'s area for pleacing great widgets.' ),
+            'before_widget' => '<div id="%1$s" class="side-block-2 %2$s">',
+            'after_widget'  => '</div>'
         )
     );
 

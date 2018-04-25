@@ -339,7 +339,7 @@ input[type=email].form-control {
 .main-banner {
 	padding-top: 70px;
 	padding-bottom: 60px;
-	background-image: url(../images/banners/main-banner-img1.jpg);
+	background-image: url(assets/images/banners/main-banner-img1.jpg);
 }
 	.main-banner h1 {
 		color: #fff;			
@@ -595,7 +595,7 @@ input[type=email].form-control {
 .about-advantage-section {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-image: url(../images/about-adv-section-bg.jpg);
+	background-image: url(assets/images/about-adv-section-bg.jpg);
 }
 	.about-advantage-section h6 {
 		margin-top: 20px;
@@ -617,7 +617,7 @@ input[type=email].form-control {
 .practice-overview-section	{
 	padding-top: 60px;
 	padding-bottom: 70px;
-	background-image: url(../images/practice-overview-section-bg.jpg);
+	background-image: url(assets/images/practice-overview-section-bg.jpg);
 }
 	.practice-overview-section .row {
 		margin-top: 20px;
@@ -637,7 +637,7 @@ input[type=email].form-control {
 /* Cases Info Stats Section Styles Starts */
 
 .cases-stats-info {
-	background-image: url(../images/cases-stats-info-bg.jpg);
+	background-image: url(assets/images/cases-stats-info-bg.jpg);
 }
 .cases-stats-info, 
 .cases-stats-info h2, 
@@ -1362,6 +1362,7 @@ input[type=email].form-control {
 .side-block-2 {
 	margin-bottom: 40px;
 }
+	/* html template style */
 	.side-block-2 h6 {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -1371,6 +1372,40 @@ input[type=email].form-control {
 		text-transform: uppercase;
 		background-color: #b00f14;
 	}
+	/* wp widget style */
+	.side-block-2 h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 15px 25px;
+		color: #fff;
+		font-weight: 500;
+		font-size: 24px;
+		text-transform: uppercase;
+		background-color: #b00f14;
+	}
+
+	.side-block-2 ul {
+		background-color: #ededed;
+		padding-left: 0;
+		list-style: none;
+	}
+		.side-block-2 ul li {
+			padding: 13px 20px 13px 25px;
+		}
+		.side-block-2 ul li +li {
+			border-top: 1px solid #c4c4c4;
+		}		
+		.side-block-2 ul li a {
+			color: #222;
+			font-size: 16px;
+		}
+		.side-block-2 ul li a:hover {
+			color: #b00f14;
+		}
+		
+
+	/* end wp widget style */
+
 	.side-block-2 ul.list-links {
 		background-color: #ededed;
 	}

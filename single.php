@@ -1,6 +1,5 @@
-<?php 
-	get_header(); ?>
-    <h1>Single Loop</h1>
+<?php get_header(); ?>
+    <h1>Single.php</h1>
 	<main id="single-page" class="content col-layout">
 		<?php 
 		if(have_posts()): 
@@ -25,7 +24,4 @@
 		endif; 
 		?>
 	</main><!-- #single-page -->
-	<?php 
-	get_sidebar();
-	get_footer(); 
-	?>
+<?php get_footer(); ?>
