@@ -1,9 +1,14 @@
-<?php get_header() ?>
+<?php get_header(); ?>
+<h1>front-page.php</h1>
 
-
+<?php
+if ( 'posts' == get_option( 'show_on_front' ) ) {
+    include( get_home_template() );
+} else {
+?> 
 
 	<!-- Slider Starts -->
-        <div id="main-slider" class="carousel slide" data-ride="carousel">
+	<div id="main-slider" class="carousel slide" data-ride="carousel">
 		<!-- Wrapper For Slides Starts -->
 			<div class="carousel-inner text-center">
 			<!-- Slide #1 Starts -->
@@ -397,4 +402,8 @@
 
 
 
-<?php get_footer() ?>
+<?php
+}
+?>
+
+<?php get_footer(); ?>
