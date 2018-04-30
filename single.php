@@ -115,117 +115,16 @@
 						<?php 
 					endwhile; 
 				endif; 
-				?>				
-
+				?>
 				<!-- Comments Display Starts -->
-					<h4 class="main-heading-4">3 Comments</h4>
-					<div class="comments-area">
-					<!-- Comment #1 Starts -->
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="images/avatar/avatar-1.png" alt="Avatar">
-							</a>
-							<div class="media-body">
-								<h6 class="media-heading">Super Admin</h6>
-								<p class="date"><a href="#">June 12, 2016 | 16.45</a></p>
-								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-								</p>
-								<br>
-								<p class="text-right-lg text-right-md text-right-sm">
-									<a href="#" class="btn btn-secondary flat animation">Reply</a>
-								</p>
-							<!-- Nested Comment #1 Starts -->
-								<div class="media">
-									<a class="pull-left" href="#">
-										<img class="media-object" src="images/avatar/avatar-1.png" alt="Avatar">
-									</a>
-									<div class="media-body">
-										<h6 class="media-heading">Super Admin</h6>
-										<p class="date"><a href="#">June 12, 2016 | 16.45</a></p>
-										<p>
-											It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-										</p>
-										<br>
-										<p class="text-right-lg text-right-md text-right-sm">
-											<a href="#" class="btn btn-secondary flat animation">Reply</a>
-										</p>
-									</div>
-								</div>
-							<!-- Nested Comment #1 Ends -->
-							</div>
-						</div>
-					<!-- Comment #1 Ends -->
-					<!-- Comment #2 Starts -->
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="images/avatar/avatar-1.png" alt="Avatar">
-							</a>
-							<div class="media-body">
-								<h6 class="media-heading">Super Admin</h6>
-								<p class="date"><a href="#">June 12, 2016 | 16.45</a></p>
-								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-								</p>
-								<br>
-								<p class="text-right-lg text-right-md text-right-sm">
-									<a href="#" class="btn btn-secondary flat animation">Reply</a>
-								</p>
-							</div>
-						</div>
-					<!-- Comment #2 Ends -->
-					<!-- Comment #3 Starts -->
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="images/avatar/avatar-1.png" alt="Avatar">
-							</a>
-							<div class="media-body">
-								<h6 class="media-heading">Super Admin</h6>
-								<p class="date"><a href="#">June 12, 2016 | 16.45</a></p>
-								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-								</p>
-								<br>
-								<p class="text-right-lg text-right-md text-right-sm">
-									<a href="#" class="btn btn-secondary flat animation">Reply</a>
-								</p>
-							</div>
-						</div>
-					<!-- Comment #3 Ends -->
-					</div>
+				<?php
+				// If comments are open or we have at least one comment, load up the comment template.
+ 				if ( comments_open() || get_comments_number() ) :
+     				comments_template();
+ 				endif;
+				?>
 				<!-- Comments Display Ends -->
-				<!-- Comments Form Starts -->
-					<div class="comment-form">
-						<h4 class="main-heading-4">Leave Your Comments</h4>
-						<form role="form">
-							<div class="row">
-								<div class="col-md-4 col-xs-12">
-									<div class="form-group">
-										<input type="text" class="form-control flat" placeholder="Full Name">
-									</div>
-								</div>
-								<div class="col-md-4 col-xs-12">
-									<div class="form-group">
-										<input type="email" class="form-control flat" placeholder="Email">
-									</div>
-								</div>
-								<div class="col-md-4 col-xs-12">
-									<div class="form-group">
-										<input type="text" class="form-control flat" placeholder="Website">
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<div class="form-group">
-										<textarea class="form-control flat" rows="5" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<input type="submit" class="btn btn-secondary flat animation" value="Submit Comment">
-								</div>
-							</div>
-						</form>
-					</div>
-				<!-- Comments Form Ends -->
+
 			
 			</div>
 			<!-- Mainarea Ends -->
