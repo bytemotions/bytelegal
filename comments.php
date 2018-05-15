@@ -30,15 +30,13 @@ if ( post_password_required() )
 <div id="comments" class="comments-area">
  
     <?php if ( have_comments() ) : ?> 
-        <ol class="comment-list">
-            <?php
-                wp_list_comments( array(
-                    'style'       => 'div',
-                    'short_ping'  => true,
-                    'avatar_size' => 54,
-                ) );
-            ?>
-        </ol><!-- .comment-list -->
+        <?php
+            wp_list_comments( array(
+                'style'       => 'div',
+                'short_ping'  => true,
+                'avatar_size' => 54,
+            ) );
+        ?>
  
         <?php  // Are there comments to navigate through?
             if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
@@ -55,8 +53,7 @@ if ( post_password_required() )
         <?php endif; ?>
  
     <?php endif; // have_comments() ?>
- 
- 
+  
 </div><!-- #comments -->
 
 
