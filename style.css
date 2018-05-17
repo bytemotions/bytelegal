@@ -95,6 +95,14 @@ h6 { font-size: 18px; }
 	border-bottom: 1px solid #c4c4c4;
 }
 	
+.comment-reply-title {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	color: #222;
+	border-bottom: 1px solid #c4c4c4;
+}
+
 .sub-heading-1 {
 	padding-left: 15px;
 	padding-bottom: 5px;	
@@ -119,7 +127,7 @@ h6 { font-size: 18px; }
 .list-style-6 li, 
 .side-block-2 li, 
 .contact-form .btn-secondary, 
-.comment-form .btn-secondary {
+.comment-respond .btn-secondary {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -923,22 +931,37 @@ input[type=email].form-control {
 		margin-bottom: 50px;
 		border: 1px solid #c4c4c4;
 	}
-		.comments-area .media {
+		.comments-area .comment {
 			padding: 30px;
-			border-bottom: 1px solid #c4c4c4;
+			/*border-bottom: 1px dotted #c4c4c4;*/
+			border-left: 1px dotted #c4c4c4;
 		}
-		.comments-area .media:last-child {
+		.comments-area .avatar {
+			display: block;
+			float: left !important;
+			margin-right: 20px;
+		}
+		/*
+		.comments-area .comment:last-child {
 			border-bottom: none;
 		}
-			.comments-area .media-left, .media > .pull-left {
-				padding-right: 20px;
+		*/
+		.comments-area cite {
+			color: #222;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 500;
+			line-height: 1.1;				
+		}
+		.comments-area .commentmetadata {
+			font: 14px/24px 'Roboto', Arial, Helvetica, sans-serif;
+		}
+			.comments-area .commentmetadata a {
+				color: #7f7f7f;
 			}
-			.comments-area .media-heading {
-				color: #222;
-				text-transform: uppercase;
-			}
-			.comments-area .media-body {
-			}
+
+			/*
 			.comments-area .media-body > .media {
 				margin-top: 30px;
 				padding-top: 35px;
@@ -947,9 +970,7 @@ input[type=email].form-control {
 				border-bottom: none;
 			}
 				.comments-area .media-body .date, 
-				.comments-area .media-body .date a {
-					color: #7f7f7f;
-				}
+				
 				.comments-area .media-body .comments-btn {
 					padding-top: 20px;
 					text-align: right;					
@@ -966,17 +987,20 @@ input[type=email].form-control {
 						text-decoration: none;
 						border-color: #ff7576;
 					}
-	.comment-form {
+			
+
+	.comment-respond {
 		margin-top: 15px;
 		margin-bottom: 40px;
 	}
-		.comment-form .form-group {
+		.comment-respond .form-group {
 			margin-bottom: 25px;
 		}
-		.comment-form .btn-secondary {
+		.comment-respond .btn-secondary {
 			padding: 8px 24px;
 			font-size: 18px;
 		}
+	*/
 				
 /* Pagination Styles Starts */
 
@@ -1554,3 +1578,7 @@ input[type=email].form-control {
 	   -moz-transition: all 1s ease;
 		    transition: all 1s ease;	
 }
+
+
+
+
