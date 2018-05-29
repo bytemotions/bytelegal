@@ -105,6 +105,8 @@ function bytelegal_add_theme_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'bytelegal_add_theme_scripts' );
 
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
 
 /** 
 * no es necesaria la etiqueta de cierre: "?>"
