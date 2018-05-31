@@ -30,15 +30,14 @@
 	<!-- Main Header Starts -->
 	
 		<header class="main-header">
-		<!-- Nested Container Starts -->
+			<!-- Nested Container Starts -->
 			<div class="container">
-			<!-- Nested Row Starts -->
+				<!-- Nested Row Starts -->
 				<div class="row">
-				<!-- Logo Starts -->
+					<!-- Logo Starts -->
 					<div class="col-md-3 col-sm-4 col-xs-12">
 						<img src="<?php echo get_theme_file_uri( 'assets/images/logo.png' ); ?>" alt="Law Attorney" class="img-responsive img-center-xs logo">
-					</div>
-				<!-- Logo Ends -->
+					</div><!--.logo-->					
 				<!-- Right Col Starts -->
 					<div class="col-md-9 col-sm-8 col-xs-12 hidden-xs">
 					<!-- Header Links Starts
@@ -52,8 +51,7 @@
 					-->
 					<?php wp_nav_menu( array( 'theme_location'  => 'header-links',
 											  'menu_class'      => 'list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light',
-											  'container'       => '',
-											  'container_class' => 'col-md-9 col-sm-8 col-xs-12 hidden-xs') ); ?>
+											  'container'       => '' ) ); ?>
 					<!-- Header Links Ends -->
 					<!-- Starts -->
 						<ul class="list-unstyled list-inline header-info text-center-xs pull-right-lg pull-right-md pull-right-sm">
