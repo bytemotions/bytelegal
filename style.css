@@ -300,6 +300,12 @@ input[type=email].form-control {
 				background-color: #b00f14;
 			}
 
+/* social menu */
+
+#menu-menu-redes-sociales a[href^="http:www.facebook"] {
+	content: "F";
+}
+
 /* Slider Styles Starts */
 
 #main-slider {
