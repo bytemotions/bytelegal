@@ -38,20 +38,12 @@
 					<div class="col-md-3 col-sm-4 col-xs-12">
 						<img src="<?php echo get_theme_file_uri( 'assets/images/logo.png' ); ?>" alt="Law Attorney" class="img-responsive img-center-xs logo">
 					</div><!--.logo-->					
-				<!-- Right Col Starts -->
+					<!-- Right Col Starts -->
 					<div class="col-md-9 col-sm-8 col-xs-12 hidden-xs">
-					<!-- Header Links Starts
-						<ul class="list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light">
-							<li><a href="#">Attorneys</a></li>
-							<li><a href="#">Recent Cases</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Pratice Areas</a></li>
-							<li><a href="#">Team Members</a></li>
-						</ul>
-					-->
-					<?php wp_nav_menu( array( 'theme_location'  => 'header-links',
-											  'menu_class'      => 'list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light',
-											  'container'       => '' ) ); ?>
+					<!-- Header Links Starts-->
+					<?php wp_nav_menu( 
+						array( 'theme_location'  => 'header-links',
+						 	   'menu_class'      => 'list-unstyled list-inline header-links text-right-lg text-right-md text-right-sm text-center-xs text-light',) ); ?>
 					<!-- Header Links Ends -->
 					<!-- Starts -->
 						<ul class="list-unstyled list-inline header-info text-center-xs pull-right-lg pull-right-md pull-right-sm">
@@ -95,34 +87,19 @@
 			<!-- Nav Header Ends -->
 			<!-- Navbar Cat collapse Starts -->
 				<div class="collapse navbar-collapse navbar-cat-collapse animation">
-					<!--<ul class="nav navbar-nav text-uppercase text-bold">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="practice-area.html">Pratice Areas</a></li>
-						<li><a href="attorneys.html">Attorneys</a></li>
-						<li class="dropdown">
-							<a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-							<ul class="dropdown-menu flat" role="menu">
-								<li><a href="blog.html">Blog Page</a></li>
-								<li><a href="blog-single.html">Blog Single Page</a></li>
-							</ul>
-						</li>
-						<li><a href="features.html">Features</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>-->
 					<!-- PRIMARY MENU STARTS -->
-					<?php wp_nav_menu( array( 'theme_location'  => 'header-primary',
-											  'menu_class'      => 'nav navbar-nav text-uppercase text-bold',
-											  'container'       => '') ); ?>
-
+					<?php wp_nav_menu( 
+						array( 	'theme_location'  => 'header-primary',
+							  	'menu_class'      => 'nav navbar-nav text-uppercase text-bold'	) ); ?>
 					<!-- END PRIMARY MENU -->
+					<!-- SOCIAL MENU START -->
 					<ul class="nav navbar-nav navbar-right text-right-lg text-right-md hidden-sm hidden-xs">
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
+					</ul><!-- SOCIAL MENU END -->					
 				</div>
 			<!-- Navbar Cat collapse Ends -->
 			</div>
