@@ -299,13 +299,6 @@ input[type=email].form-control {
 			.main-menu .dropdown-menu > .active > a:focus {
 				background-color: #b00f14;
 			}
-
-/* social menu */
-
-#menu-menu-redes-sociales a[href^="http:www.facebook"] {
-	content: "F";
-}
-
 /* Slider Styles Starts */
 
 #main-slider {

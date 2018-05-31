@@ -91,6 +91,7 @@ function bytelegal_add_theme_scripts() {
     wp_enqueue_style( 'bootstrap'   , get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '3.3.1', 'all');
     wp_enqueue_style( 'style'       , get_stylesheet_uri() );  
     wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/font-awesome/css/font-awesome.min.css', array(), '4.5.0', 'all');
+    wp_enqueue_style( 'fonts'       , get_template_directory_uri() . '/font-awesome/fonts/fontawesome-webfont.woff', array(), null, 'all');
     wp_enqueue_style( 'owl.carousel', get_template_directory_uri() . '/assets/js/plugins/owl-carousel/owl.carousel.css', array(), '1.3.3', 'all');
     wp_enqueue_style( 'owl.theme'   , get_template_directory_uri() . '/assets/js/plugins/owl-carousel/owl.theme.css', array(), '1.3.3', 'all');
     wp_enqueue_style( 'responsive'  , get_template_directory_uri() . '/assets/css/responsive.css', array(), null, 'all');    
