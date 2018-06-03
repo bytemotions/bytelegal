@@ -45,6 +45,7 @@ if ( ! function_exists( 'bytelegal_setup' ) ) {
         register_nav_menus( array(
             'header-primary' => __('Header Primary', 'bytelegal' ),
             'header-links'   => __('Header Links',   'bytelegal' ),
+            'footer-links'   => __('Footer Links',   'bytelegal' ),
             'header-social'  => __('Header Social',  'bytelegal' ),
             'footer-social'  => __('Footer Social',  'bytelegal' )		
         ) );

@@ -11,14 +11,19 @@
 							<h4 class="text-light-color">About Law Attorney</h4>
 							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, fermentum massa justo sit amet risus. Sed posuere consec.</p>
 							<p>Suspendisse commodo auctor molestie. Mauris arisusvitae massa.</p>
-							<ul class="list-unstyled list-inline sm-foot-links">
+							<!--<ul class="list-unstyled list-inline sm-foot-links">
 								<li class="animation"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 								<li class="animation"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
 								<li class="animation"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
 								<li class="animation"><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
 								<li class="animation"><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
+							</ul>-->
+							<?php wp_nav_menu( 
+								array( 	'theme_location'  => 'footer-social',
+							  			'menu_class'      => 'list-unstyled list-inline sm-foot-links'	) ); ?>
+
 						</div>
+						
 					<!-- Foot Col #1 Ends -->
 					<!-- Foot Col #2 Starts -->
 						<div class="col-md-3 col-sm-6 col-xs-12">

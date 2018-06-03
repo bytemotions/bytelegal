@@ -92,18 +92,11 @@
 						array( 	'theme_location'  => 'header-primary',
 							  	'menu_class'      => 'nav navbar-nav text-uppercase text-bold'	) ); ?>
 					<!-- END PRIMARY MENU -->
-					<!-- SOCIAL MENU START
-					<!--<ul class="nav navbar-nav navbar-right text-right-lg text-right-md hidden-sm hidden-xs">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					</ul>-->
-					<!-- SOCIAL MENU END -->					
+					<!-- SOCIAL MENU START -->
 					<?php wp_nav_menu( 
 						array( 	'theme_location'  => 'header-social',
 							  	'menu_class'      => 'nav navbar-nav navbar-right text-right-lg text-right-md hidden-sm hidden-xs'	) ); ?>
+					<!-- SOCIAL MENU END -->					
 				</div>
 			<!-- Navbar Cat collapse Ends -->
 			</div>
