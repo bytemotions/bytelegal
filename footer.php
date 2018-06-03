@@ -11,17 +11,11 @@
 							<h4 class="text-light-color">About Law Attorney</h4>
 							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, fermentum massa justo sit amet risus. Sed posuere consec.</p>
 							<p>Suspendisse commodo auctor molestie. Mauris arisusvitae massa.</p>
-							<!--<ul class="list-unstyled list-inline sm-foot-links">
-								<li class="animation"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-								<li class="animation"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li class="animation"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-								<li class="animation"><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-								<li class="animation"><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>-->
+							<!--Fotter social menu-->
 							<?php wp_nav_menu( 
 								array( 	'theme_location'  => 'footer-social',
-							  			'menu_class'      => 'list-unstyled list-inline sm-foot-links'	) ); ?>
-
+										  'menu_class'      => 'list-unstyled list-inline sm-foot-links'	) ); 
+							?><!--Fotter social menu-->
 						</div>
 						
 					<!-- Foot Col #1 Ends -->
@@ -81,15 +75,11 @@
 					<h6 class="text-center">Mon-Thu 9:00 AM to 5:30 PM &amp; Fri - Sat 10:00 AM to 3:00 PM</h6>
 					<div class="clearfix text-center-sm text-center-xs">
 						<span class="pull-left-lg pull-left-md">Law Attorney &copy; 2016, All Rights Reserved.</span>
-						<ul class="list-unstyled list-inline pull-right-lg pull-right-md pull-right-sm text-right-lg text-right-md">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="practice.html">Practice Area</a></li>
-							<li><a href="attorneys.html">Attorneys</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="features.html">Features</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
+						<!--Fotter links menu-->
+						<?php wp_nav_menu( 
+							array( 	'theme_location'  => 'footer-links',
+									'menu_class'      => 'list-unstyled list-inline pull-right-lg pull-right-md pull-right-sm text-right-lg text-right-md'	) ); 
+						?><!--Fotter links menu-->						
 					</div>
 				</div>
 			<!-- Nested Container Ends -->
