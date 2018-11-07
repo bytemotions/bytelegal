@@ -1082,7 +1082,7 @@ input[type=email].form-control {
 /* Footer Styles Starts */
 
 .main-footer {
-	padding-top: 70px;	
+	padding-top: 30px;	
 	background-color: #2a2a2a;
 }
 	.main-footer, 
@@ -1092,7 +1092,7 @@ input[type=email].form-control {
 	}
 	
 	.footer-links {
-		padding-bottom: 80px;
+		padding-bottom: 40px;
 	}
 		.footer-links h4 {
 			margin-bottom: 20px;
@@ -1119,6 +1119,7 @@ input[type=email].form-control {
 			margin-bottom: 17px;
 		}
 		.copyright h6 {
+			margin-top: 37px;
 			margin-bottom: 33px;
 		}
 		.copyright > .container > .clearfix {
