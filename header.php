@@ -36,7 +36,7 @@
 				<div class="row">
 					<!-- Logo Starts -->
 					<div class="col-md-3 col-sm-4 col-xs-12">
-						<img src="<?php echo get_theme_file_uri( 'assets/images/logo.png' ); ?>" alt="Law Attorney" class="img-responsive img-center-xs logo">
+						<img src="<?php echo get_theme_file_uri( 'assets/images/logo_irusta.png' ); ?>" alt="Law Attorney" class="img-responsive img-center-xs logo">
 					</div><!--.logo-->					
 					<!-- Right Col Starts -->
 					<div class="col-md-9 col-sm-8 col-xs-12 hidden-xs">
@@ -47,19 +47,19 @@
 					<!-- Header Links Ends -->
 					<!-- Starts -->
 						<ul class="list-unstyled list-inline header-info text-center-xs pull-right-lg pull-right-md pull-right-sm">
-							<li class="hidden-sm"><a href="#" class="btn btn-secondary text-uppercase animation flat"><i class="fa fa-comments"></i> Request Free Consutation</a></li>
+							<li class="hidden-sm"><a href="#" class="btn btn-secondary text-uppercase animation flat"><i class="fa fa-comments"></i> Haga su consulta gratuita</a></li>
 							<li class="clearfix">
 								<i class="fa fa-map-marker pull-left"></i>
 								<span class="pull-left">
-									<h6>Flat #505, Khairthabad</h6>
-									Banjara Hills, Rd: 3, Hyd - 001
+									<h6>Trafalgar 14, 3º 1ª</h6>
+									Barcelona, 08002
 								</span>
 							</li>
 							<li class="clearfix">
 								<i class="fa fa-phone pull-left"></i>
 								<span class="pull-left">
-									<h6>001 345 678 9630</h6>
-									Free Case Consultation
+									<h6>(+34) 345 678 963</h6>
+									Consulta gratuita
 								</span>
 							</li>
 						</ul>
