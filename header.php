@@ -47,7 +47,7 @@
 					<!-- Header Links Ends -->
 					<!-- Starts -->
 						<ul class="list-unstyled list-inline header-info text-center-xs pull-right-lg pull-right-md pull-right-sm">
-							<li class="hidden-sm"><a href="#" class="btn btn-secondary text-uppercase animation flat"><i class="fa fa-comments"></i> Haga su consulta gratuita</a></li>
+							<li class="hidden-sm"><a href="home#contact" class="btn btn-secondary text-uppercase animation flat"><i class="fa fa-comments"></i> Haga su consulta gratuita</a></li>
 							<li class="clearfix">
 								<i class="fa fa-map-marker pull-left"></i>
 								<span class="pull-left">

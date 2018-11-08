@@ -567,8 +567,8 @@ input[type=email].form-control {
 /* Clients Section Styles Starts */
 
 .clients-section {
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-top: 15px;
+	padding-bottom: 25px;
 	background-color: #b00f14;
 }
 	#clients-carousel {
