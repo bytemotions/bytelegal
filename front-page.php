@@ -80,64 +80,64 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Familia y suceciones</h6>
 						<p><i class="fa fa-bank"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p> Separación, divorcio y nulidad matrimonial civil y eclesiástica. Disolución y liquidación de régimen matrimonial</p>
+						<a href="area-familia-y-suceciones">ver más</a>
 					</li>
 				<!-- Col #1 Ends -->
 				<!-- Col #2 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Mercantil</h6>
 						<p><i class="fa fa-cubes"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Contratación general. Asesoramiento integral de empresas y autónomos. Concursos de acreedores</p>
+						<a href="area-mercantil">ver más</a>
 					</li>
 				<!-- Col #2 Ends -->
 				<!-- Col #3 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Civil</h6>
 						<p><i class="fa fa-cloud-download"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Reclamación de impagados, indemnizaciones, desahucios, contratos</p>
+						<a href="area-derecho-civil">ver más</a>
 					</li>
 				<!-- Col #3 Ends -->
 				<!-- Col #4 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Penal</h6>
 						<p><i class="fa fa-cube"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Homicidios y asesinatos. ​Violencia de género y doméstica, Lesiones​, amenazas, coacciones</p>
+						<a href="area-derecho-penal">ver más</a>
 					</li>
 				<!-- Col #4 Ends -->
 				<!-- Col #5 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Vivienda</h6>
 						<p><i class="fa fa-connectdevelop"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Desahucios, contratos de renta antigua, redacción de Contratos, devolución de la fianza del alquiler</p>
+						<a href="area-derecho-inmobiliario">ver más</a>
 					</li>
 				<!-- Col #5 Ends -->
 				<!-- Col #6 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Herencias</h6>
 						<p><i class="fa fa-area-chart"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Aceptación de herencia, impugnación de testamentos, herencias internacionales</p>
+						<a href="area-herencias">ver más</a>
 					</li>
 				<!-- Col #6 Ends -->
 				<!-- Col #7 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Fiscal</h6>
 						<p><i class="fa fa-binoculars"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Fiscalidad nacional e internacional, negociaciones y contratos, fusiones y adquisiciones</p>
+						<a href="area-fiscal">ver más</a>
 					</li>
 				<!-- Col #7 Ends -->
 				<!-- Col #8 Starts -->
 					<li class="col-md-3 col-sm-6 col-xs-12">
 						<h6>Laboral</h6>
 						<p><i class="fa fa-book"></i></p>
-						<p>Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum.</p>
-						<a href="#">know more...</a>
+						<p>Reclamaciones de salarios e impagos. acoso laboral, mobbing, falso autónomo</p>
+						<a href="area-laboral">ver más</a>
 					</li>
 				<!-- Col #8 Ends -->
 				</ul>
